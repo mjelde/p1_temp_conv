@@ -1,0 +1,43 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body{ 
+    
+}
+
+form{ 
+    width: 400px; 
+    margin: 0 auto; 
+    padding: 10px;
+    border: 1px solid black;
+} 
+
+fieldset{ 
+    width: 400px;
+    padding: 10px;
+    border: none;
+} 
+
+fieldset label{ 
+    width: 100%; 
+    margin-right: 40px; 
+
+    
+    
+} 
+
+fieldset input{ 
+    width: 90%; 
+    margin-bottom: 20px; 
+    
+    
+} 
+
+fieldset select { 
+    width: 50%; 
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
