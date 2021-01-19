@@ -1,0 +1,75 @@
+/*  Styles for my version of the temterpature converter~ */
+/* Universal styels and background */
+html{
+    background-color: lightblue;
+    color: 000;
+}
+
+main{
+    width: 600px;
+    margin: 10px auto 0 auto;
+}
+
+form{
+    background-color: #fff;
+    border: 2px solid #000;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px blue;
+}
+
+label{
+    font-size: 20px;
+    margin: 20px 0 10px 20px;
+}
+
+/* Input fields */
+input[type="text"], select{
+    margin: 10px 0 10px 0;
+}
+input[type="text"]{
+    width: 5ch;
+}
+
+/* Buttons section */
+section.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 2em;
+}
+/*  Submit and reset buttons */
+input[type='submit'], input[type='button']{
+    width: 30%;
+    height: 60px;
+}
+
+/* Errors */
+p.error{
+    color: red;
+    font-style: italic;
+}
+
+article{
+    background: lightgreen;
+    border: 4px solid #000;
+    text-align: center;
+    margin-top: 20px;
+}
+em{
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 0px #555;
+}
+p.answer{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    background-color: goldenrod;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #fff;
+}
