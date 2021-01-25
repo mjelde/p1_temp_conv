@@ -159,9 +159,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Only need to run this code if we 
 
 <!-- Work log!
 
+Josh: Edited form, aided in logic, 20 min 1/24/21 
+Sharon: Editied the PHP & HTML, 30 min, 1/24/21
 Robin: Fiddled with form structure, added more CSS, 1 hour, 1/18/2021
 Robin: Added form logic, started CSS, .5 hours, 1/14/2021
 Robin: Wrote basic form, 2 hours 1/8/2021
-Sharon: Editied the PHP & HTML, 30 min, 1/24/21
+
 
 -->
