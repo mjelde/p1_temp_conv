@@ -3,6 +3,7 @@
 html{
     background-color: lightblue;
     color: 000;
+    font-family: 'Roboto Slab', serif;
 }
 
 main{
@@ -14,22 +15,29 @@ form{
     background-color: #fff;
     border: 2px solid #000;
 }
+/* Text styles */
 h1{
     text-align: center;
     text-shadow: 2px 2px blue;
 }
-
 label{
     font-size: 20px;
     margin: 20px 0 10px 20px;
 }
+p{
+    margin: 4px 4px 12px 4px;
+    padding: 0;
+}
 
 /* Input fields */
-input[type="text"], select{
-    margin: 10px 0 10px 0;
+select{
+    margin: 8px;
+    width: 75%;
+    padding: 10px;
 }
 input[type="text"]{
     width: 5ch;
+    padding: 10px;
 }
 
 /* Buttons section */
@@ -52,11 +60,13 @@ p.error{
     font-style: italic;
 }
 
-article{
+/* Results box and answer */
+article.result_box{
     background: lightgreen;
     border: 4px solid #000;
     text-align: center;
     margin-top: 20px;
+    box-shadow: 4px 4px #fff;
 }
 em{
     font-style: normal;
