@@ -1,16 +1,17 @@
 <?php
 // First, declare the variables
+// group project temp converter
 $unit_from = "";
 $unit_to = "";
 $unit_to_short = "";
 $temp = "";
 $result = "";
-// Then, the error varaibles
+// Then, the error variables
 $unit_from_error = "";
 $unit_to_error = "";
 $temp_error = "";
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Only need to run this code if we have receieved POST data
+if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Only need to run this code if we have received POST data
 
     // First, we check the POST data to see if it exists for each value, and assign either an error
     // or set the variable to that value
@@ -109,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Only need to run this code if we 
             <p class="error"><?php echo $temp_error; ?></p>
             <p><label for="unit_from">Select Unit</label></p>
             <select name="unit_from" id="unit_from">
-                <option value="">Curent Unit:</option>
+                <option value="">Current Unit:</option>
                 <option value="fahrenheit" <?php if ($unit_from === 'fahrenheit') {
                                                 echo 'selected = selected';
                                             } ?>>Fahrenheit</option>
@@ -161,5 +162,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { // Only need to run this code if we 
 Robin: Fiddled with form structure, added more CSS, 1 hour, 1/18/2021
 Robin: Added form logic, started CSS, .5 hours, 1/14/2021
 Robin: Wrote basic form, 2 hours 1/8/2021
+Sharon: Editied the PHP & HTML, 30 min, 1/24/21
 
 -->
